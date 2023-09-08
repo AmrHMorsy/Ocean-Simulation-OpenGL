@@ -26,6 +26,16 @@ Image-Based Lighting: Lighting techniques based on real-world imagery, providing
 ### Optimizations
 Frustum Culling: Efficiently renders only the portions of the game world that are currently visible, enhancing performance.
 
+## To-Do
+
+. Animating/Moving Boat: Enhance the boat's realism by allowing it to move and interact dynamically with the waves.
+. Narrative Elements: Introduce poems, texts, and diaries to enrich the narrative.
+. Weather Dynamics: Implement changing weather patterns, introducing elements like rain, thunder, and storms to intensify the emotional atmosphere.
+. Introductory Scene: Create an engaging scene that sets the narrative tone and provides context to the game.
+. Dynamic Shadows: Incorporate shadows for added realism.
+. Trailer Creation: Design a compelling trailer to showcase the essence of "Forgotten Waves".
+
+ 
 ## Installation
 
 1. Clone the repository:
