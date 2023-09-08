@@ -75,13 +75,15 @@ This project is licensed under the terms of the MIT license. For more informatio
 
 ## Acknowledgments
 
-This project has been a product of continuous learning and inspiration, made possible by a multitude of invaluable resources.
+The journey of creating this project was one of ongoing discovery, powered by numerous essential resources.
 
-A significant acknowledgement goes to the LearnOpenGL.com website as well as Jerry's Tessendofr's Paper "Simulating Ocean Water". This resource has provided the fundamental knowledge and understanding needed to bring this project to life. Its comprehensive and accessible approach to explaining the concept of ray tracing has been instrumental in the development of this application.
+Deep appreciation goes to LearnOpenGL.com for their comprehensive insights into OpenGL. Their teachings and examples have been a cornerstone in developing this application.
 
-Last but not least, I am indebted to the open-source community for consistently providing resources, inspiration, and a platform to learn, create, and share.
+Equally, gratitude is reserved for Jerry Tessendorf's illuminating paper "Simulating Ocean Water". His expertise and methodology have been instrumental in making the dynamic ocean simulation a reality.
 
-Your contributions to my journey in computer graphics are immensely appreciated.
+Further thanks are directed towards the vibrant open-source community. Their continuous support, generous resource-sharing, and passion for collaborative learning have been indispensable in this endeavor.
+
+Every contribution has played a vital role in advancing my understanding of computer graphics.
 
 
 ## Support
