@@ -4,7 +4,17 @@ Forgotten Waves is an immersive virtual environment that captures the deep intro
 
 # Implementation 
 
-The project is impleemented using C++, OpenGL and OpenCL. 
+"Forgotten Waves" is a game developed in C++ and utilizes the graphics capabilities of OpenGL. It employs OpenCL to simulate waves using the Fast Fourier Transform method. The game also uses Physically-Based Rendering for its shading, enhancing the realism of the oceanic visuals.
+
+
+
+
+
+
+
+
+
+
 
 
 
