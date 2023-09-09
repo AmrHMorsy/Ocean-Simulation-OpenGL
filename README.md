@@ -40,9 +40,6 @@ Forgotten Waves is an immersive virtual environment that captures the deep intro
 
 With these features, "Forgotten Waves" offers a blend of technical prowess and emotional depth, setting it apart as a unique gaming experience.
 
-<img width="1430" alt="Screenshot 2023-09-08 at 20 01 24" src="https://github.com/AmrHMorsy/Forgotten-Waves/assets/56271967/f7aa216d-f5aa-468a-8b59-c1baf67ccdd5">
-
-
 ## Future Work
 
 - **Animating/Moving Boat:** To further the game's realism, there's a vision to allow the boat to move and dynamically interact with the waves, mimicking real-world reactions.
