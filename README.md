@@ -74,7 +74,7 @@ make
 
 ## Future Work
 
-- **Animating/Moving Boat:** To further the game's realism, there's a vision to allow the boat to move and dynamically interact with the waves, mimicking real-world reactions.
+- **Animating/Moving Boat:** To further the game's realism, there's a vision to allow the boat to row in different directions and to animate the oars with movement.
 - **Narrative Elements:** To enhance the introspective journey, future versions might introduce poems, texts, and personal diary entries. These literary fragments could provide deeper layers of story, resonating with players on an emotional and intellectual level.
 - **Weather Dynamics:** Plans are in place to implement dynamic weather patterns. This includes introducing elements like rain, thunder, and turbulent storms, all aiming to amplify the emotional ambiance of "Forgotten Waves".
 - **Introductory Scene:** To seamlessly introduce players to the game's narrative and emotional undertones, an evocative introductory scene is on the horizon. This scene aims to set the tone and context for the entire experience.
