@@ -2,6 +2,11 @@
 
 Forgotten Waves is an immersive virtual environment that captures the deep introspective journey of an individual amidst the vastness of the ocean. The project represents the intricate feelings of solitude, introspection, and the haunting beauty of internal struggles.
 
+<img width="1426" alt="Screenshot 2023-09-08 at 19 59 39" src="https://github.com/AmrHMorsy/Forgotten-Waves/assets/56271967/f304d023-837d-4057-ae82-9f44c06a3d4b">
+
+
+
+
 ## Implementation 
 
 "Forgotten Waves" is a game developed in C++ and utilizes the graphics capabilities of OpenGL. It employs OpenCL to simulate waves using the Fast Fourier Transform method. The game also uses Physically-Based Rendering for its shading, enhancing the realism of the oceanic visuals.
