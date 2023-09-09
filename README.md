@@ -3,9 +3,7 @@
 Forgotten Waves is an immersive virtual environment that captures the deep introspective journey of an individual amidst the vastness of the ocean. The project represents the intricate feelings of solitude, introspection, and the haunting beauty of internal struggles.
 
 <img width="1426" alt="Screenshot 2023-09-08 at 19 59 39" src="https://github.com/AmrHMorsy/Forgotten-Waves/assets/56271967/f304d023-837d-4057-ae82-9f44c06a3d4b">
-<img width="1427" alt="bright_high_samples" src="https://github.com/AmrHMorsy/Forgotten-Waves/assets/56271967/34a28a5e-d448-42ca-ae81-ae022998e266">
-<img width="1428" alt="dark-High_samples" src="https://github.com/AmrHMorsy/Forgotten-Waves/assets/56271967/749c48df-1c2a-4954-8bc4-c60ca4f03e0a">
-<img width="1427" alt="Screenshot 2023-09-09 at 06 13 48" src="https://github.com/AmrHMorsy/Forgotten-Waves/assets/56271967/9add234f-331a-4892-9f07-688a62a03abd">
+
 
 
 ## Implementation 
