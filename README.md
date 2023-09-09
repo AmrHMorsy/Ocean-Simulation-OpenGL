@@ -40,6 +40,38 @@ Forgotten Waves is an immersive virtual environment that captures the deep intro
 
 With these features, "Forgotten Waves" offers a blend of technical prowess and emotional depth, setting it apart as a unique gaming experience.
 
+## Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/AmrHMorsy/Forgotten_Waves.git
+```
+2. Navigate to the project directory: 
+```
+cd Forgotten_Waves
+```
+3. Create a build directory: 
+```
+mkdir build
+```
+4. Navigate to the build directory: 
+```
+cd build
+```
+5. Generate makefiles using cmake: 
+```
+cmake ../
+```
+6. compile using makefile: 
+```
+make
+```
+7. Run the program: 
+```
+./Forgotten_Waves
+```
+
+
 ## Future Work
 
 - **Animating/Moving Boat:** To further the game's realism, there's a vision to allow the boat to move and dynamically interact with the waves, mimicking real-world reactions.
