@@ -1,5 +1,6 @@
 #version 330 core
 
+in float mirror ;
 in float ambient_occlusion ;
 in float r ;
 in vec2 texture_coordinates ;
@@ -45,6 +46,7 @@ vec3 calculate_normal()
     vec2 st2 = dFdy(texture_coordinates);
     vec3 N   = normalize(_normal);
     vec3 T  = normalize(Q1*st2.t - Q2*st1.t);
+    T = T * mirror ; 
     vec3 B  = -normalize(cross(N, T));
     mat3 TBN = mat3(T, B, N);
 
