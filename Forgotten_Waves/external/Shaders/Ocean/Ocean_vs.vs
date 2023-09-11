@@ -8,34 +8,30 @@ layout (location = 4) in mat4 model ;
 
 out vec2 texture_coordinates ;
 out vec3 world_position ;
-
+out float mirror ;
 
 
 void calculate_texture_coordinates()
 {
-//    int x = int(index) ;
-//    int sideLength = int(sqrt(float(16)));
-//    int i = x / sideLength;
-//    int j = x - i * sideLength;
-//    float cellWidth = 1.0 / float(sideLength);
-//    float cellHeight = 1.0 / float(sideLength);
-//    vec2 offset = vec2(j * cellWidth, i * cellHeight);
-//    texture_coordinates = _texture * vec2(cellWidth, cellHeight) + offset;
+    mirror = 1.0f ;
     texture_coordinates = _texture ;
-    if (index == 1)
+    if (index == 1){
         texture_coordinates.x = 1.0 - _texture.x ;
-    else if (index == 2)
+        mirror = 1.0f ;
+    }
+    else if (index == 2){
         texture_coordinates.y = 1.0 - _texture.y ;
+        mirror = -1.0f ;
+    }
     else if (index == 3){
         texture_coordinates.x = 1.0 - _texture.x ;
         texture_coordinates.y = 1.0 - _texture.y ;
+        mirror = -1.0f ;
     }
 }
 
 void main()
 {
     world_position = (model * vec4(vertex, 1.0)).xyz ;
-//    int i = index / sqrt(4) ;
-//    int j = index - (i*sqrt(4)) ;
     calculate_texture_coordinates() ;
 }
