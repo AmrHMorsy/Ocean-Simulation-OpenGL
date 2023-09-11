@@ -4,10 +4,11 @@ layout(vertices = 3) out;
 
 in vec3 world_position[];
 in vec2 texture_coordinates[];
+in float mirror[] ;
 
 out vec3 tcWorldPosition[];
 out vec2 tcTextureCoordinates[];
-
+out float tcmirror[] ;
 uniform vec3 camera;
 
 float get_tesselation_level(float distance)
@@ -21,6 +22,7 @@ void main()
 {
     tcWorldPosition[gl_InvocationID] = world_position[gl_InvocationID];
     tcTextureCoordinates[gl_InvocationID] = texture_coordinates[gl_InvocationID];
+    tcmirror[gl_InvocationID] = mirror[gl_InvocationID] ; 
     if(gl_InvocationID == 0){
         float distance = length(camera - world_position[gl_InvocationID]);
         float tessLevel = get_tesselation_level(distance);
