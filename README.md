@@ -88,7 +88,8 @@ make
 In the development of "Forgotten Waves", several resources were pivotal in achieving the game's technical and visual accomplishments:
 
 - **LearnOpenGL:** Many of the advanced rendering techniques and graphics integrations were guided by the comprehensive tutorials and articles available on LearnOpenGL. Their in-depth explanations and hands-on approach were instrumental in realizing the game's visual potential.
-- **"Simulating Ocean Water" by Jerry Tessendorf:** The realistic ocean simulation in the game is largely influenced by the methods described in Jerry Tessendorf's seminal paper, "Simulating Ocean Water". This paper provided the foundational understanding of ocean wave simulations, and its techniques were crucial in the development of the game's oceanic environment. <br />
+- **"Simulating Ocean Water" by Jerry Tessendorf:** The realistic ocean simulation in the game is largely influenced by the methods described in Jerry Tessendorf's seminal paper, "Simulating Ocean Water". This paper provided the foundational understanding of ocean wave simulations, and its techniques were crucial in the development of the game's oceanic environment.
+- **CGTrader:** All of the 3D models used in the game were sourced from CGTrader. <br />
 
 A heartfelt thank you to these and other resources and communities that contributed, either directly or indirectly, to the making of "Forgotten Waves".
 
