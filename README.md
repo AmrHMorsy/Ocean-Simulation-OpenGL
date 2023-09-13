@@ -35,7 +35,7 @@ git clone https://github.com/AmrHMorsy/Ocean-Simulation.git
 ```
 2. Navigate to the project directory: 
 ```
-cd Ocean Simulation
+cd Ocean_Simulation
 ```
 3. Create a build directory: 
 ```
