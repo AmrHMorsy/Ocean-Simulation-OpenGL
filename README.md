@@ -2,7 +2,7 @@
 
 Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform method (FFT) with the assistance of OpenCL to simulate waves. Additionally, it employs Physically-Based Rendering to enhance the realism of the oceanic visuals
 
-<img width="1426" alt="Screenshot 2023-09-08 at 19 59 39" src="https://github.com/AmrHMorsy/Forgotten-Waves/assets/56271967/f304d023-837d-4057-ae82-9f44c06a3d4b">
+<img width="955" alt="Screenshot 2023-10-09 at 15 53 16" src="https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/441969f9-b7c4-475a-8467-69ceb93c8b25">
 
 ## Features
 
@@ -24,8 +24,6 @@ Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform met
 
 ### Original Soundtrack
 - A unique background score composed personally, accentuating the game's mood and themes, and enriching the sense of solitude and reflection.
-
-<img width="1432" alt="Screenshot 2023-09-09 at 06 08 12" src="https://github.com/AmrHMorsy/Forgotten-Waves/assets/56271967/732caa22-246e-4def-91ec-6803573349bd">
 
 ## Installation
 
