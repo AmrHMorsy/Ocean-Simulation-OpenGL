@@ -1,3 +1,6 @@
+🎥 Watch the 4K animation on YouTube https://www.youtube.com/watch?v=jK1D5zEDx-I
+
+
 # Ocean Simulation
 
 Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform method (FFT) with the assistance of OpenCL to simulate waves. Additionally, it employs Physically-Based Rendering to enhance the realism of the oceanic visuals
