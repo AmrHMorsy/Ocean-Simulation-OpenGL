@@ -1,74 +1,31 @@
 # Ocean Simulation
 
-Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform method (FFT) with the assistance of OpenCL to simulate waves. Additionally, it employs Physically-Based Rendering to enhance the realism of the oceanic visuals
+Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform method (FFT) with the assistance of OpenCL to simulate waves. Additionally, it employs Physically-Based Rendering and image-based lighting techniques to enhance the realism of the oceanic visuals
 
-![image](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/4330e1b8-c9e7-4f0e-8101-0207054dcbc2)
+![image copy](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/dea0ab4b-059d-4ec4-a18d-99e5c77f1057)
 
 ## Features
 
-### Graphics and Rendering
-- Developed using C++ for core game logic.
-- Advanced graphics powered by OpenGL.
-- Physically-Based Rendering (PBR) employed for lifelike shading and materials.
-- Image-based Lighting for richer and more accurate reflections and illumination.
+### Graphics and Rendering:
+- Powered by OpenGL, the project offers advanced graphics rendering.
+- Utilized Physically-Based Rendering (PBR) techniques to achieve lifelike shading and materials, resulting in realistic reflections, refractions, and lighting effects on the water surface.
+- Enhanced visual fidelity with Image-based Lighting, providing richer reflections and accurate illumination.
+- Frustum culling ensures optimized performance, rendering only the elements within the player's perspective.
 
-### Ocean Simulation
-- Realistic oceanic visuals with waves simulated through Fast Fourier Transform (FFT).
-- OpenCL integration for efficient parallelization of wave computations.
-- Ability to adjust the ocean's temperament, transitioning between calm seas and stormy waters.
+### Ocean Simulation:
+- Employed Fast Fourier Transform (FFT) for the realistic depiction of ocean waves, providing a compelling representation of ocean dynamics.
+- Integrated OpenCL to efficiently parallelize wave computations, bolstering the simulation's performance.
+- Incorporated the Phillips Spectrum for detailed statistical modeling of wave energy distribution across various frequencies.
+- Features adjustable ocean temperament settings, allowing transitions between serene waters and turbulent seas.
+- Wake effects intricately modify the wave height field, further enhancing the simulation's realism.
 
-### Environmental Effects
-- A visually arresting HDR Skybox for a dynamic and immersive sky.
-- Atmospheric fog effect to add depth and ambiance to the scene.
-- Frustum culling to optimize performance by rendering only what's within the player's field of view.
+![image](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/bca13d29-e97e-4bc9-92b1-acf6f150ddd6)
 
-### Original Soundtrack
-- A unique background score composed personally, accentuating the game's mood and themes, and enriching the sense of solitude and reflection.
+### Environmental Effects:
+- Introduced an HDR Skybox, presenting a dynamic, immersive sky that accentuates the visual experience.
+- Atmospheric fog effects have been implemented, adding depth and a captivating ambiance to the scene.
+- The Infinite Ocean feature ensures that the water landscape stretches endlessly, providing a consistent and immersive backdrop.
 
-## Installation
-
-1. Clone the repository:
-```
-git clone https://github.com/AmrHMorsy/Ocean-Simulation.git
-```
-2. Navigate to the project directory: 
-```
-cd Ocean_Simulation
-```
-3. Create a build directory: 
-```
-mkdir build
-```
-4. Navigate to the build directory: 
-```
-cd build
-```
-5. Generate makefiles using cmake: 
-```
-cmake ../
-```
-6. compile using makefile: 
-```
-make
-```
-7. Run the program: 
-```
-./Ocean_Simulation
-```
-
-
-## Future Work
-
-- **Animating/Moving Boat:** Allow the boat to row in different directions and to animate the oars with movement.
-- **Weather Dynamics:** Implement dynamic weather patterns. This includes introducing elements like rain, thunder, and turbulent storms.
-- **Dynamic Shadows:** Future implementations will focus on incorporating dynamic shadows, creating a richer and more lifelike environment.
-
-## Acknowledgments
-
-- **LearnOpenGL:** Many of the advanced rendering techniques and graphics integrations were guided by the comprehensive tutorials and articles available on LearnOpenGL. Their in-depth explanations and hands-on approach were instrumental in realizing the simulation's visual potential.
-- **"Simulating Ocean Water" by Jerry Tessendorf:** The realistic ocean simulation in the game is largely influenced by the methods described in Jerry Tessendorf's seminal paper, "Simulating Ocean Water". This paper provided the foundational understanding of ocean wave simulations, and its techniques were crucial in the development of the game's oceanic environment.
-- **CGTrader:** All of the 3D models used in the game were sourced from CGTrader. <br />
-
-
-## Contributing
-This project is open to contributions. If you have suggestions or improvements, feel free to fork the project, make your changes, and open a pull request.
+### Additional Features:
+- The project boasts dynamic shadows, lending a heightened sense of realism.
+- An animated boat, responding to the simulation's oceanic dynamics, moves seamlessly across the water.
