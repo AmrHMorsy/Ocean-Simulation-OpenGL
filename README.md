@@ -1,5 +1,3 @@
-# Ocean Simulation
-
 Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform method (FFT) with the assistance of OpenCL to simulate waves. Additionally, it employs Physically-Based Rendering and image-based lighting techniques to enhance the realism of the oceanic visuals
 
 ![image copy](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/dea0ab4b-059d-4ec4-a18d-99e5c77f1057)
