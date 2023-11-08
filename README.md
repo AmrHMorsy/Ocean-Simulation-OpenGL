@@ -19,13 +19,12 @@ Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform met
 - Features adjustable ocean temperament settings, allowing transitions between serene waters and turbulent seas.
 - Wake effects intricately modify the wave height field, further enhancing the simulation's realism.
 
-![2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/a4fc554c-0b63-44ea-8071-f0ea6abddca3)
-
 ### Environmental Effects:
 - Introduced an HDR Skybox, presenting a dynamic, immersive sky that accentuates the visual experience.
 - Atmospheric fog effects have been implemented, adding depth and a captivating ambiance to the scene.
 - The Infinite Ocean feature ensures that the water landscape stretches endlessly, providing a consistent and immersive backdrop.
 
+![1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/29a98de4-4cdf-485f-80c9-bb70f09f6fc0)
 
 ## Installation
 
@@ -57,5 +56,3 @@ make
 ```
 ./ocean_simulation
 ```
-
-![1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/29a98de4-4cdf-485f-80c9-bb70f09f6fc0)
