@@ -19,6 +19,8 @@ Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform met
 - Features adjustable ocean temperament settings, allowing transitions between serene waters and turbulent seas.
 - Wake effects intricately modify the wave height field, further enhancing the simulation's realism.
 
+![Screenshot 2023-11-07 at 22 27 04](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/e7920720-1446-42d2-8d8c-189d2fcbaf47)
+
 ### Environmental Effects:
 - Introduced an HDR Skybox, presenting a dynamic, immersive sky that accentuates the visual experience.
 - Atmospheric fog effects have been implemented, adding depth and a captivating ambiance to the scene.
