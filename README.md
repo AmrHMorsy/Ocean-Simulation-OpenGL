@@ -23,7 +23,3 @@ Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform met
 - Introduced an HDR Skybox, presenting a dynamic, immersive sky that accentuates the visual experience.
 - Atmospheric fog effects have been implemented, adding depth and a captivating ambiance to the scene.
 - The Infinite Ocean feature ensures that the water landscape stretches endlessly, providing a consistent and immersive backdrop.
-
-### Additional Features:
-- The project boasts dynamic shadows, lending a heightened sense of realism.
-- An animated boat, responding to the simulation's oceanic dynamics, moves seamlessly across the water.
