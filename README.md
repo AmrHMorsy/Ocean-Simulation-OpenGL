@@ -27,7 +27,3 @@ Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform met
 ### Additional Features:
 - The project boasts dynamic shadows, lending a heightened sense of realism.
 - An animated boat, responding to the simulation's oceanic dynamics, moves seamlessly across the water.
-
-
-https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/10b687d5-bdc5-4c19-ad93-c631d70804a7
-
