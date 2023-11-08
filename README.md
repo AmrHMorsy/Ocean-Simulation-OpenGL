@@ -2,7 +2,7 @@
 
 Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform method (FFT) with the assistance of OpenCL to simulate waves. Additionally, it employs Physically-Based Rendering and image-based lighting techniques to enhance the realism of the oceanic visuals
 
-![image copy](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/dea0ab4b-059d-4ec4-a18d-99e5c77f1057)
+![image 2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/0ac42cf6-1602-4f77-a293-f23f99f24ba7)
 
 ## Features
 
@@ -18,8 +18,6 @@ Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform met
 - Incorporated the Phillips Spectrum for detailed statistical modeling of wave energy distribution across various frequencies.
 - Features adjustable ocean temperament settings, allowing transitions between serene waters and turbulent seas.
 - Wake effects intricately modify the wave height field, further enhancing the simulation's realism.
-
-![image](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/bca13d29-e97e-4bc9-92b1-acf6f150ddd6)
 
 ### Environmental Effects:
 - Introduced an HDR Skybox, presenting a dynamic, immersive sky that accentuates the visual experience.
