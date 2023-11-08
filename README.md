@@ -23,3 +23,36 @@ Developed in C++ and OpenGL, this simulation uses the Fast Fourier Transform met
 - Introduced an HDR Skybox, presenting a dynamic, immersive sky that accentuates the visual experience.
 - Atmospheric fog effects have been implemented, adding depth and a captivating ambiance to the scene.
 - The Infinite Ocean feature ensures that the water landscape stretches endlessly, providing a consistent and immersive backdrop.
+
+
+## Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/AmrHMorsy/ocean_simulation-.git
+```
+2. Navigate to the project directory: 
+```
+cd Ocean_Simulation
+```
+3. Create a build directory: 
+```
+mkdir build
+```
+4. Navigate to the build directory: 
+```
+cd build
+```
+5. Generate makefiles using cmake: 
+```
+cmake ../
+```
+6. compile using makefile: 
+```
+make
+```
+7. Run the program: 
+```
+./ocean_simulation
+```
+
