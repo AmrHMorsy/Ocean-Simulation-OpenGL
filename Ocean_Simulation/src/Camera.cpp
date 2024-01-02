@@ -3,7 +3,7 @@
 
 
 // 0.315f
-Camera::Camera(): fov(60.0f), lookaround_speed(0.01f), angle(0.0f), is_first_person(true), projection_width(1500), projection_height(1000), up(glm::vec3(0.0f, 1.0f, 0.0f)), front(glm::normalize(glm::vec3(0.0f, -0.3, -0.939364))), direction(glm::normalize(glm::vec3(0.0f, 0.0f, -1.0f))), camera_position(glm::vec3(0.0f, 0.3f, 0.3f)), right(glm::normalize(glm::cross(front,up))), model(glm::mat4(1.0f)), near_plane(0.1f), far_plane(10000000.0f), z_offset(0.2f), rotation(glm::mat4(1.0f))
+Camera::Camera(): fov(60.0f), lookaround_speed(0.05f), angle(0.0f), is_first_person(true), projection_width(1500), projection_height(1000), up(glm::vec3(0.0f, 1.0f, 0.0f)), front(glm::normalize(glm::vec3(0.0f, -0.3, -0.939364))), direction(glm::normalize(glm::vec3(0.0f, 0.0f, -1.0f))), camera_position(glm::vec3(0.0f, 0.3f, 0.3f)), right(glm::normalize(glm::cross(front,up))), model(glm::mat4(1.0f)), near_plane(0.1f), far_plane(10000000.0f), z_offset(0.2f), rotation(glm::mat4(1.0f))
 {
     set_projection() ;
     set_view() ;
