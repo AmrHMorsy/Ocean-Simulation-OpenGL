@@ -4,7 +4,7 @@
 
 //{0.484394f, 7.5f, 0.416144f}
 
-Boat::Boat( glm::mat4 v, glm::mat4 proj, glm::vec3 c, glm::vec3 front, float fv, progressbar * b, glm::mat4 light_proj, glm::mat4 _light_view): num_progress_bars(10),light_position({0.0f, 10.0f, 0.0f}), light_color({100.0f, 100.0f, 100.0f}), view(v), projection(proj), camera(c), file_paths( {"../assets/Boat/Albedo.png", "../assets/Boat/AO.png", "../assets/Boat/Normal.png", "../assets/Boat/Roughness.png", "../assets/Boat/Displacement.png", "../assets/Boat/Metallic.png"} ), camera_front(front), fov(fv), number_sand_patches(0), bar(b), time(0.0f), light_projection(light_proj), light_view(_light_view)
+Boat::Boat( glm::mat4 v, glm::mat4 proj, glm::vec3 c, glm::vec3 front, float fv, progressbar * b, glm::mat4 light_proj, glm::mat4 _light_view): num_progress_bars(0),light_position({0.0f, 10.0f, 0.0f}), light_color({100.0f, 100.0f, 100.0f}), view(v), projection(proj), camera(c), file_paths( {"../assets/Boat/Albedo.png", "../assets/Boat/AO.png", "../assets/Boat/Normal.png", "../assets/Boat/Roughness.png", "../assets/Boat/Displacement.png", "../assets/Boat/Metallic.png"} ), camera_front(front), fov(fv), number_sand_patches(0), bar(b), time(0.0f), light_projection(light_proj), light_view(_light_view)
 {
     parser = new Parser(bar) ;
     parser->parse( "../assets/Boat/Boat2.obj" ) ;
