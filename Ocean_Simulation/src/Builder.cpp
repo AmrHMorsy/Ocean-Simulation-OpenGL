@@ -9,8 +9,8 @@ Builder::Builder()
     renderer = new Renderer(window, bar) ;
     int scrWidth, scrHeight;
     glfwGetFramebufferSize(window, &scrWidth, &scrHeight);
-//    glViewport(0,0,scrWidth,scrHeight) ;
-    glViewport(0,0,3840,2160);
+    glViewport(0,0,scrWidth,scrHeight) ;
+//    glViewport(0,0,3840,2160);
     glEnable(GL_DEPTH_TEST);
     glDepthFunc(GL_LEQUAL);
     glEnable(GL_BLEND);
@@ -40,10 +40,10 @@ void Builder::create_window()
 {
     GLFWmonitor* primary = glfwGetPrimaryMonitor();
     const GLFWvidmode* mode = glfwGetVideoMode(primary);
-//    window = glfwCreateWindow(mode->width, mode->height, "Ocean Simulation", primary, NULL);
-    window = glfwCreateWindow(3840, 2160, "Ocean Simulation", primary, NULL);
-//    glViewport(0,0,mode->width, mode->height) ;
-    glViewport(0,0,3840,2160);
+    window = glfwCreateWindow(mode->width, mode->height, "Ocean Simulation", primary, NULL);
+//    window = glfwCreateWindow(3840, 2160, "Ocean Simulation", primary, NULL);
+    glViewport(0,0,mode->width, mode->height) ;
+//    glViewport(0,0,3840,2160);
     if( window == NULL )
         generate_error( "ERROR::Failed to Create Window" ) ;
     glfwMakeContextCurrent(window);
