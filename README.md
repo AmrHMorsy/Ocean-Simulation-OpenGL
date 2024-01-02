@@ -99,6 +99,7 @@ make
 ```
 ./ocean_simulation
 ```
+<br>
 
 ![image copy](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/c18bee8f-1a24-4ec3-8300-6918dd2d9109)
 
