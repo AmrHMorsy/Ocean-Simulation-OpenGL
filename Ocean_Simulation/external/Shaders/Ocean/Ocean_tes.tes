@@ -1,0 +1,55 @@
+#version 330 core
+
+layout(triangles, equal_spacing, ccw) in ;
+
+in float tcmirror[]  ;
+in vec3 tcWorldPosition[] ;
+in vec2 tcTextureCoordinates[] ;
+
+out float mirror ;
+out float ambient_occlusion ;
+out float r ; 
+out vec3 view_position ;
+out vec2 texture_coordinates ;
+out vec3 _normal ;
+out vec3 world_position ;
+out vec4 fragment_position_light_space ;
+
+
+uniform mat4 view ;
+uniform mat4 projection ;
+uniform sampler2D height_map ;
+uniform mat4 light_projection ;
+uniform mat4 light_view ;
+
+const float ambient_occlusion_scaling_factor = 10.0f ;
+const float normal_scaling_factor = 100.0f ;
+
+void main()
+{
+    world_position = gl_TessCoord.x * tcWorldPosition[0] +
+                        gl_TessCoord.y * tcWorldPosition[1] +
+                        gl_TessCoord.z * tcWorldPosition[2] ;
+    texture_coordinates = gl_TessCoord.x * tcTextureCoordinates[0] +
+                           gl_TessCoord.y * tcTextureCoordinates[1] +
+                           gl_TessCoord.z * tcTextureCoordinates[2] ;
+    mirror = tcmirror[0] ; 
+    float height = texture(height_map, texture_coordinates).r ;
+    world_position.y += height ;
+
+    _normal.x = normal_scaling_factor*texture(height_map, texture_coordinates).g ;
+    _normal.y = 1.0f ;
+    _normal.z = normal_scaling_factor*texture(height_map, texture_coordinates).b ;
+    _normal = normalize(_normal) ;
+    gl_Position = projection * view * vec4(world_position, 1.0) ;
+    view_position = (view * vec4(world_position, 1.0)).xyz ;
+    
+    float slopex = texture(height_map, texture_coordinates).g ;
+    float slopez = texture(height_map, texture_coordinates).b ;
+
+    float len = sqrt( (slopex*slopex) + (slopez*slopez)) ;
+    r = min(1.0f, len) ;
+    ambient_occlusion = clamp((1.0-ambient_occlusion_scaling_factor*len), 0.0, 1.0);
+    
+    fragment_position_light_space = light_projection * light_view * vec4(world_position, 1.0) ;
+}
