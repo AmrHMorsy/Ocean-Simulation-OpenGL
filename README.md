@@ -66,7 +66,7 @@ Atmospheric fog effects are implemented to add depth and a captivating ambiance 
 
 The Infinite Ocean feature ensures that the ocean landscape extends endlessly, providing a consistent and immersive backdrop. This feature is crucial in creating a believable and boundless oceanic environment, where the horizon seamlessly meets the sky, just like in the real world.
 
-![Screenshot 2023-11-08 at 10 41 20](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/6e515374-3d8b-47e1-a4f6-2b6747b0851e)
+![image](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/ea42b491-76d7-4abc-b233-601a4113fb28)
 
 
 ## Installation
