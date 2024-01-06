@@ -120,16 +120,18 @@ Future updates will include character animation, allowing users to experience th
 ### Strengthened Wake Effects
 
 Recognizing the importance of wake effects in contributing to the realism of ocean simulations, the project will focus on enhancing these effects. The improved wake system will more accurately depict the interaction between objects and the water surface, allowing for more intricate and realistic wave patterns.
-Advanced Ocean Features:
 
 ### Implementation of an Infinite Ocean
 
 To provide a boundless and uninterrupted oceanic experience, the simulation will incorporate an 'Infinite Ocean' feature. This will ensure that the water landscape seamlessly stretches into the horizon, offering users an unbroken and expansive view of the ocean.
-Foam Generation: A significant addition will be the simulation of ocean foams. This feature will enhance the visual fidelity of the water, particularly in turbulent areas, adding a layer of realism to the wave crests and interactions.
+
+### Foam Generation
+
+A significant addition will be the simulation of ocean foams. This feature will enhance the visual fidelity of the water, particularly in turbulent areas, adding a layer of realism to the wave crests and interactions.
 
 ### Rendering Improvements
 
-Upgraded Rendering Techniques: A continuous effort will be made to improve the rendering capabilities of the simulation. This includes refining the Physically-Based Rendering (PBR) techniques, optimizing light interactions, and enhancing material representations. These improvements aim to achieve even more lifelike and visually stunning water and environmental effects.
+A continuous effort will be made to improve the rendering capabilities of the simulation. This includes refining the Physically-Based Rendering (PBR) techniques, optimizing light interactions, and enhancing material representations. These improvements aim to achieve even more lifelike and visually stunning water and environmental effects.
 
 These future enhancements are aimed at pushing the boundaries of realism in ocean simulation, creating an experience that is not only visually spectacular but also rich in dynamics and interactivity. By implementing these upgrades, the project will not only become a state-of-the-art tool for simulating ocean environments but also a platform for immersive exploration and discovery.
 
