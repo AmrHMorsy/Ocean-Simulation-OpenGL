@@ -68,41 +68,6 @@ The Infinite Ocean feature ensures that the ocean landscape extends endlessly, p
 
 ![image](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/ea42b491-76d7-4abc-b233-601a4113fb28)
 
-
-## Installation
-
-1. Clone the repository:
-```
-git clone https://github.com/AmrHMorsy/ocean_simulation-.git
-```
-2. Navigate to the project directory: 
-```
-cd Ocean_Simulation
-```
-3. Create a build directory: 
-```
-mkdir build
-```
-4. Navigate to the build directory: 
-```
-cd build
-```
-5. Generate makefiles using cmake: 
-```
-cmake ../
-```
-6. compile using makefile: 
-```
-make
-```
-7. Run the program: 
-```
-./ocean_simulation
-```
-<br>
-
-![image copy](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/c18bee8f-1a24-4ec3-8300-6918dd2d9109)
-
 ## Future Work
 
 ### Enhanced Fourier Transform Algorithm
@@ -137,3 +102,37 @@ These future enhancements are aimed at pushing the boundaries of realism in ocea
 
 ![image copy 2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/b6e61dd7-eb12-4c48-9f93-d48f10ba4d5b)
 
+
+## Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/AmrHMorsy/ocean_simulation-.git
+```
+2. Navigate to the project directory: 
+```
+cd Ocean_Simulation
+```
+3. Create a build directory: 
+```
+mkdir build
+```
+4. Navigate to the build directory: 
+```
+cd build
+```
+5. Generate makefiles using cmake: 
+```
+cmake ../
+```
+6. compile using makefile: 
+```
+make
+```
+7. Run the program: 
+```
+./ocean_simulation
+```
+<br>
+
+![image copy](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/c18bee8f-1a24-4ec3-8300-6918dd2d9109)
