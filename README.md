@@ -50,7 +50,7 @@ Users have the flexibility to adjust the ocean's temperament in the simulation. 
 
 Wake effects are meticulously implemented to modify the wave height field, adding another layer of realism to the simulation. These effects are particularly noticeable when objects interact with the water surface, creating realistic ripples and waves that enhance the overall authenticity of the ocean environment.
 
-![image](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/2772fce4-1768-4b92-908c-8ecb92e8e77a)
+![image-2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/d2234e09-ed69-4a88-8974-3bb09ba8bb23)
 
 ### Environmental Effects
 
