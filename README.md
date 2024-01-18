@@ -10,13 +10,9 @@ Developed in C++ and OpenGL, this real-time simulation uses the Fast Fourier Tra
 
 PBR techniques are employed to simulate realistic material properties. This approach ensures that the water surface in the simulation accurately reflects and refracts light, mimicking the way light interacts with natural water. The result is a stunningly realistic depiction of the ocean, complete with nuanced lighting effects.
 
-![2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/d1466f0e-6baf-422e-b0ae-5c8cddcfd215)
-
 #### Image-Based Lighting (IBL)
 
 To further improve visual fidelity, Image-Based Lighting (IBL) is used. This technique utilizes real-world imagery to provide environmental lighting, ensuring that the simulation's lighting conditions are based on actual atmospheric lighting. This results in richer reflections and more accurate illumination across the simulated ocean.
-
-![3](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/92c3d5e4-d1e2-4e51-a50a-3d1364766dcb)
 
 #### Ocean Waves using Fast Fourier Transform (FFT)
 
@@ -34,13 +30,9 @@ An HDR (High Dynamic Range) Skybox is introduced to present a more dynamic and i
 
 Atmospheric fog effects are implemented to add depth and a captivating ambiance to the scene. This contributes to the visual appeal of the simulation and adds a layer of realism by mimicking the way fog interacts with light and the environment in natural settings.
 
-![6](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/8de8655b-e311-43d6-b6c9-80924f1fbecb)
-
 #### Infinite Ocean
 
 The Infinite Ocean feature ensures that the ocean landscape extends endlessly, providing a consistent and immersive backdrop. This feature is crucial in creating a believable and boundless oceanic environment, where the horizon seamlessly meets the sky, just like in the real world.
-
-![7](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/b70d6b0e-bee4-4f3c-b514-b7f5652211d5)
 
 #### Frustum Culling
 
@@ -54,7 +46,7 @@ The library OpenCL is used to parallelize the FFT computation for waves simulati
 
 Users have the flexibility to adjust the ocean's temperament in the simulation. This feature allows for a seamless transition between calm, serene waters and more turbulent, stormy seas, offering a varied and interactive experience.
 
-![8](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/7fbde6ea-c1fe-40d4-be0b-f1852e2ecd20)
+![6](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/8de8655b-e311-43d6-b6c9-80924f1fbecb)
 
 ## Installation
 
