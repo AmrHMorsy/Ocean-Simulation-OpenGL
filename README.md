@@ -22,8 +22,6 @@ To further improve visual fidelity, Image-Based Lighting (IBL) is used. This tec
 
 The Fast Fourier Transform (FFT) algorithm is used to simulate realistic ocean waves. This mathematical approach is inspired by Jerry Tessendorf's paper ["Simulating Ocean Water"](https://people.computing.clemson.edu/~jtessen/reports/papers_files/coursenotes2004.pdf). The FFT algorithm creates dynamic, lifelike wave patterns that faithfully mimic real oceanic conditions.
 
-![4](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/68c67d7e-331a-44ba-aaf5-371beb30fed0)
-
 #### Phillips Spectrum for Wave Energy Modeling
 
 The simulation incorporates the Phillips Spectrum, a mathematical model that provides a detailed statistical representation of wave energy distribution. By using this model, the simulation can accurately depict the varying energy levels across different wave frequencies, adding to the authenticity of the ocean wave behavior.
@@ -31,8 +29,6 @@ The simulation incorporates the Phillips Spectrum, a mathematical model that pro
 #### Dynamic HDR Skybox 
 
 An HDR (High Dynamic Range) Skybox is introduced to present a more dynamic and immersive sky. This feature captures the vast range of luminance of real-world skies, from the brightest clouds to the darkest nights, creating a more lifelike backdrop that enhances the visual experience.
-
-![5](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/08cbd061-8bc8-4278-8cb2-d749275836b0)
 
 #### Atmospheric Fog
 
