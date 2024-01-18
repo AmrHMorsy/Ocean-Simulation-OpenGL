@@ -1,0 +1,33 @@
+#version 330 core
+layout(vertices = 3) out;
+
+in vec3 world_position[];
+in vec2 texture_coordinates[];
+in float mirror[] ;
+
+out vec3 tcWorldPosition[];
+out vec2 tcTextureCoordinates[];
+out float tcmirror[] ;
+uniform vec3 camera;
+
+float get_tesselation_level(float distance)
+{
+    float maxTess = 64.0f ;
+    float minTess = 1.0f;
+    return clamp(mix(maxTess, minTess, 0), minTess, maxTess);
+}
+
+void main()
+{
+    tcWorldPosition[gl_InvocationID] = world_position[gl_InvocationID];
+    tcTextureCoordinates[gl_InvocationID] = texture_coordinates[gl_InvocationID];
+    tcmirror[gl_InvocationID] = mirror[gl_InvocationID] ; 
+    if(gl_InvocationID == 0){
+        float distance = length(camera - world_position[gl_InvocationID]);
+        float tessLevel = get_tesselation_level(distance);
+        gl_TessLevelOuter[0] = tessLevel;
+        gl_TessLevelOuter[1] = tessLevel;
+        gl_TessLevelOuter[2] = tessLevel;
+        gl_TessLevelInner[0] = tessLevel;
+    }
+}
