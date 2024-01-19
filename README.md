@@ -46,7 +46,6 @@ The library OpenCL is used to parallelize the FFT computation for waves simulati
 
 Users have the flexibility to adjust the ocean's temperament in the simulation. This feature allows for a seamless transition between calm, serene waters and more turbulent, stormy seas, offering a varied and interactive experience.
 
-![6](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/8de8655b-e311-43d6-b6c9-80924f1fbecb)
 ![image-2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/9293d248-620a-4d29-be48-391f0cfaa147)
 
 ## Installation
@@ -80,6 +79,3 @@ make
 ./ocean_simulation
 ```
 <br>
-
-![1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/77b39ee0-3b51-4e10-a19f-0fbc382d8334)
-
