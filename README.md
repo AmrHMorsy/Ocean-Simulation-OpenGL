@@ -20,6 +20,8 @@ To further improve visual fidelity, Image-Based Lighting (IBL) is used. This tec
 
 The Fast Fourier Transform (FFT) algorithm is used to simulate realistic ocean waves. This mathematical approach is inspired by Jerry Tessendorf's paper ["Simulating Ocean Water"](https://people.computing.clemson.edu/~jtessen/reports/papers_files/coursenotes2004.pdf). The FFT algorithm creates dynamic, lifelike wave patterns that faithfully mimic real oceanic conditions.
 
+![2 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/8993a9b6-71b6-4315-8ebd-ce237572cf3a)
+
 #### Phillips Spectrum for Wave Energy Modeling
 
 The simulation incorporates the Phillips Spectrum, a mathematical model that provides a detailed statistical representation of wave energy distribution. By using this model, the simulation can accurately depict the varying energy levels across different wave frequencies, adding to the authenticity of the ocean wave behavior.
@@ -41,6 +43,8 @@ The Infinite Ocean feature ensures that the ocean landscape extends endlessly, p
 #### Frustum Culling
 
 This simulation uses frustum culling to optimize the performance of the simulation. By rendering only the elements that are within the player's field of view, it significantly reduces the processing load. This optimization ensures smooth and responsive performance, even when rendering complex scenes.
+
+![2 2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/a47891f4-edb6-4c00-9b00-da34b84d3c38)
 
 #### OpenCL Parallelization
 
