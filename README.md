@@ -2,8 +2,6 @@
 
 Developed in C++ and OpenGL, this real-time simulation uses the Fast Fourier Transform method (FFT) to simulate waves, inspired by the paper ["Simulating Ocean Water"](https://people.computing.clemson.edu/~jtessen/reports/papers_files/coursenotes2004.pdf) by Jerry Tessendorf. Additionally, it is parallelized using OpenCL and employs Physically-Based Rendering (PBR) and image-based lighting (IBL) techniques to enhance the realism of the oceanic visuals, and an HDR skybox to present dynamic and an immersive sky. 
 
-![1 19 07 12](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/62d57b78-36f1-47d2-9922-6f14d58f6362)
-
 ## Features
 
 #### Physically-Based Rendering (PBR)
@@ -53,8 +51,6 @@ The library OpenCL is used to parallelize the FFT computation for waves simulati
 #### Adjustable Ocean Temperament Settings
 
 Users have the flexibility to adjust the ocean's temperament in the simulation. This feature allows for a seamless transition between calm, serene waters and more turbulent, stormy seas, offering a varied and interactive experience.
-
-![image-2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/9293d248-620a-4d29-be48-391f0cfaa147)
 
 ## Installation
 
