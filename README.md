@@ -10,6 +10,8 @@ Developed in C++ and OpenGL, this real-time simulation uses the Fast Fourier Tra
 
 PBR techniques are employed to simulate realistic material properties. This approach ensures that the water surface in the simulation accurately reflects and refracts light, mimicking the way light interacts with natural water. The result is a stunningly realistic depiction of the ocean, complete with nuanced lighting effects.
 
+![1_brightened](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/9db0d08e-8ce1-4bf9-9f66-40394a1ef7e9)
+
 #### Image-Based Lighting (IBL)
 
 To further improve visual fidelity, Image-Based Lighting (IBL) is used. This technique utilizes real-world imagery to provide environmental lighting, ensuring that the simulation's lighting conditions are based on actual atmospheric lighting. This results in richer reflections and more accurate illumination across the simulated ocean.
@@ -41,6 +43,8 @@ This simulation uses frustum culling to optimize the performance of the simulati
 #### OpenCL Parallelization
 
 The library OpenCL is used to parallelize the FFT computation for waves simulation, by utilizing the GPU and the CPU for maximized speed and efficency. This greatly enhances the overall performance and responsiveness of the simulation.
+
+![2_brightened](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/dee27774-e997-4d99-9b6b-56f29145f483)
 
 #### Adjustable Ocean Temperament Settings
 
@@ -79,5 +83,3 @@ make
 ./ocean_simulation
 ```
 <br>
-
-![1 19 07 12](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/62d57b78-36f1-47d2-9922-6f14d58f6362)
