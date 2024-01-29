@@ -12,10 +12,11 @@ PBR techniques are employed to simulate realistic material properties. This appr
 
 ![1 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/ac259ee8-be2d-4af9-8b54-e0a196118f26)
 
-
 #### Image-Based Lighting (IBL)
 
 To further improve visual fidelity, Image-Based Lighting (IBL) is used. This technique utilizes real-world imagery to provide environmental lighting, ensuring that the simulation's lighting conditions are based on actual atmospheric lighting. This results in richer reflections and more accurate illumination across the simulated ocean.
+
+![3 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/22cda536-2039-407a-9a65-ba6e6b7485d7)
 
 #### Ocean Waves using Fast Fourier Transform (FFT)
 
@@ -28,6 +29,8 @@ The simulation incorporates the Phillips Spectrum, a mathematical model that pro
 #### Dynamic HDR Skybox 
 
 An HDR (High Dynamic Range) Skybox is introduced to present a more dynamic and immersive sky. This feature captures the vast range of luminance of real-world skies, from the brightest clouds to the darkest nights, creating a more lifelike backdrop that enhances the visual experience.
+
+![3 2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/c9501800-9549-43b2-a3dd-bc12af0e1c14)
 
 #### Atmospheric Fog
 
