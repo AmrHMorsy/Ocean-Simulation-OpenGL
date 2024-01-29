@@ -79,3 +79,5 @@ make
 ./ocean_simulation
 ```
 <br>
+
+![1 19 07 12](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/62d57b78-36f1-47d2-9922-6f14d58f6362)
