@@ -2,6 +2,8 @@
 
 Developed in C++ and OpenGL, this real-time simulation uses the Fast Fourier Transform method (FFT) to simulate waves, inspired by the paper ["Simulating Ocean Water"](https://people.computing.clemson.edu/~jtessen/reports/papers_files/coursenotes2004.pdf) by Jerry Tessendorf. Additionally, it is parallelized using OpenCL and employs Physically-Based Rendering (PBR) and image-based lighting (IBL) techniques to enhance the realism of the oceanic visuals, and an HDR skybox to present dynamic and an immersive sky. 
 
+![5 3](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/dca4834b-cd40-4ade-9327-c89e0432b826)
+
 ## Features
 
 #### Physically-Based Rendering (PBR)
@@ -26,6 +28,8 @@ The Fast Fourier Transform (FFT) algorithm is used to simulate realistic ocean w
 
 The simulation incorporates the Phillips Spectrum, a mathematical model that provides a detailed statistical representation of wave energy distribution. By using this model, the simulation can accurately depict the varying energy levels across different wave frequencies, adding to the authenticity of the ocean wave behavior.
 
+![4 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/e88c3063-fb09-4a39-a52b-8c7536e418ea)
+
 #### Dynamic HDR Skybox 
 
 An HDR (High Dynamic Range) Skybox is introduced to present a more dynamic and immersive sky. This feature captures the vast range of luminance of real-world skies, from the brightest clouds to the darkest nights, creating a more lifelike backdrop that enhances the visual experience.
@@ -36,9 +40,13 @@ An HDR (High Dynamic Range) Skybox is introduced to present a more dynamic and i
 
 Atmospheric fog effects are implemented to add depth and a captivating ambiance to the scene. This contributes to the visual appeal of the simulation and adds a layer of realism by mimicking the way fog interacts with light and the environment in natural settings.
 
+![4 2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/186c56ab-0edb-4dba-9f4f-baeeaf710af6)
+
 #### Infinite Ocean
 
 The Infinite Ocean feature ensures that the ocean landscape extends endlessly, providing a consistent and immersive backdrop. This feature is crucial in creating a believable and boundless oceanic environment, where the horizon seamlessly meets the sky, just like in the real world.
+
+![5 2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/4e7edc5f-6626-4c17-bb08-9561bab5fd60)
 
 #### Frustum Culling
 
@@ -55,6 +63,8 @@ The library OpenCL is used to parallelize the FFT computation for waves simulati
 #### Adjustable Ocean Temperament Settings
 
 Users have the flexibility to adjust the ocean's temperament in the simulation. This feature allows for a seamless transition between calm, serene waters and more turbulent, stormy seas, offering a varied and interactive experience.
+
+![5 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/479b7e6b-839c-4c38-8e5d-b5565f3c74e3)
 
 ## Installation
 
