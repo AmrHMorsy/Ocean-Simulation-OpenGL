@@ -2,7 +2,16 @@
 
 Developed in C++ and OpenGL, this real-time simulation uses the Fast Fourier Transform method (FFT) to simulate waves, inspired by the paper ["Simulating Ocean Water"](https://people.computing.clemson.edu/~jtessen/reports/papers_files/coursenotes2004.pdf) by Jerry Tessendorf. Additionally, it is parallelized using OpenCL and employs Physically-Based Rendering (PBR) and image-based lighting (IBL) techniques to enhance the realism of the oceanic visuals, and an HDR skybox to present dynamic and an immersive sky. 
 
-![2 2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/a47891f4-edb6-4c00-9b00-da34b84d3c38)
+<p align="center">
+  <img src="![2 2](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/a47891f4-edb6-4c00-9b00-da34b84d3c38)" width="48%" />
+  <img src="![1 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/ac259ee8-be2d-4af9-8b54-e0a196118f26)" width="48%" />
+</p>
+<p align="center">
+  <img src="![3 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/22cda536-2039-407a-9a65-ba6e6b7485d7)" width="48%" />
+  <img src="![2 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/8993a9b6-71b6-4315-8ebd-ce237572cf3a)" width="48%" />
+</p>
+
+
 
 ## Features
 
@@ -10,19 +19,19 @@ Developed in C++ and OpenGL, this real-time simulation uses the Fast Fourier Tra
 
 PBR techniques are employed to simulate realistic material properties. This approach ensures that the water surface in the simulation accurately reflects and refracts light, mimicking the way light interacts with natural water. The result is a stunningly realistic depiction of the ocean, complete with nuanced lighting effects.
 
-![1 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/ac259ee8-be2d-4af9-8b54-e0a196118f26)
+
 
 #### Image-Based Lighting (IBL)
 
 To further improve visual fidelity, Image-Based Lighting (IBL) is used. This technique utilizes real-world imagery to provide environmental lighting, ensuring that the simulation's lighting conditions are based on actual atmospheric lighting. This results in richer reflections and more accurate illumination across the simulated ocean.
 
-![3 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/22cda536-2039-407a-9a65-ba6e6b7485d7)
+
 
 #### Ocean Waves using Fast Fourier Transform (FFT)
 
 The Fast Fourier Transform (FFT) algorithm is used to simulate realistic ocean waves. This mathematical approach is inspired by Jerry Tessendorf's paper ["Simulating Ocean Water"](https://people.computing.clemson.edu/~jtessen/reports/papers_files/coursenotes2004.pdf). The FFT algorithm creates dynamic, lifelike wave patterns that faithfully mimic real oceanic conditions.
 
-![2 1](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/8993a9b6-71b6-4315-8ebd-ce237572cf3a)
+
 
 #### Phillips Spectrum for Wave Energy Modeling
 
