@@ -66,6 +66,11 @@ Users have the flexibility to adjust the ocean's temperament in the simulation. 
 
 ![11](https://github.com/AmrHMorsy/Ocean-Simulation/assets/56271967/479b7e6b-839c-4c38-8e5d-b5565f3c74e3)
 
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.  
+[Read the full license here](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
 ## Installation
 
 1. Clone the repository:
